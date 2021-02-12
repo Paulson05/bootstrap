@@ -1,0 +1,15 @@
+.section{
+    background-image: url("images/download.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+color: rgb(12, 180, 12);
+  padding-top: 100px;
+  text-align: center;
+  font-size: 100%;
+}
+
+.section p, h5{
+    font-size: 30px;
+}
