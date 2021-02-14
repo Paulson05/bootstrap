@@ -13,9 +13,9 @@
 <body>
     <div class="container">
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light  bg-transparent  ">
+        <nav class="navbar navbar-expand-lg navbar-light    ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">bucci</a>
+          <a class="navbar-brand" href="index.html">bucci</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,10 +23,10 @@
             <ul class="navbar-nav  mx-auto  ">
              
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#"><i class="fas fa-home">Home</i></a>
+                <a class="nav-link" href="index.html"><i class="fas fa-home">Home</i></a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="#"><i class="fas fa-user">About</i></a>
+                <a class="nav-link" href="about.html"><i class="fas fa-user">About</i></a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link" href="contact.html"><i class="fas fa-phone">contact</i></a>
@@ -62,7 +62,7 @@
              <div class="row ">
                    <div class="col-md-4 ">
                        <div class="container">
-                        <img src="images\web dev.jpg" alt="">
+                        <img class="img" src="images\web dev.jpg" alt="">
                        </div>
                    </div>
                    <div class="col-xs-4 col-md-6 ">
@@ -76,14 +76,14 @@
             <h3 class="text-center p-5">Services</h3>
             <div class="row ">
                   <div class="col-sx-4 col-md-6 ">
-                   <div class="container">
+                   <div class="container service">
                     <p>Lorem ipsum, dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui esse sunt pariatur ipsa reprehenderit ipsam cupiditate quibusdam ex consequuntur, iure iste culpa cumque. Excepturi deleniti error quas mollitia molestias possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, sunt. Consectetur, numquam fugiat voluptate alias qui facere modi id corporis quibusdam incidunt vitae accusantium praesentium voluptatem rem, non adipisci dignissimos. Nisi saptione voluptatem itaque magnam!</p>
                    </div>
                       
                   </div>
                   <div class="col-md-4 ">
                     <div class="container">
-                        <img src="images\services.jpg" alt="">
+                        <img class="service-img" src="images\services.jpg" alt="">
                     </div>
                </div>
             </div>
@@ -159,7 +159,7 @@
   </div>
 </div>
 </div>
-   <div class="container">
+   <div class="container contact-us">
        <h2 class="text-center">Contact Us</h2>
        <form>
         <div class="row justify-content-center">
@@ -179,7 +179,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-md-4 p-2">
-              <textarea name="" id="" cols="48" rows="5"></textarea>
+              <textarea name="" id="" cols="47" rows="5"></textarea>
             </div>
           </div>
       </form>
@@ -201,5 +201,15 @@
   </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+
+  //  window.sr =  ScrollReveal({duration: 1000});
+  // sr.reveal('.card-title .card-text');
+  // sr.reveal('.container .col-md-6 .img');
+  // sr.reveal('.service .service-img');
+
+  ScrollReveal().reveal('.container .col-md-6 .img');
+</script>
 </body>
 </html>
